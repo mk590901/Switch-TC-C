@@ -150,9 +150,9 @@ int main() {
 ```
 micrcx@micrcx-desktop:~/vs_cpp/tc_c$ make
 cc    -c -o core.o core.c
-cc    -c -o switch_reset_helper.o switch_reset_helper.c
+cc    -c -o Switch_resetHelper.o Switch_resetHelper.c
 cc    -c -o main.o main.c
-g++ core.o switch_reset_helper.o main.o -o switch
+g++ core.o Switch_resetHelper.o main.o -o switch
 ```
 
 ## Run
