@@ -7,7 +7,7 @@ CXX = g++
 CXXFLAGS = -Ilogger
 
 # Source files
-SRCS = core.c switch_reset_helper.c main.c
+SRCS = core.c Switch_resetHelper.c main.c
 
 # Object files
 OBJS = $(SRCS:.c=.o)
